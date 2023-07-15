@@ -4,20 +4,21 @@
   </div>
 </template>
 
-<script>
+<!-- <script>
 export default {
   data() {
     return {
       title: "My first component!",
-      isUppercase: false,
+      isUppercase: true,
     };
   },
 };
-</script>
+</script> -->
 //<script setup>
-// const title ='My first component!';
-// const isUppercase = true;
-// </script>
+const title ='My first component!';
+const isUppercase = true;
+//
+</script>
 <style>
 h1 {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
